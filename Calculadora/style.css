@@ -1,15 +1,17 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f2f2f2;
+  background-color: #e04545;
 }
 h1 {
   text-align: center;
   margin-top: 30px;
+  color: #fff;
 }
 h2 {
   text-align: center;
   margin-top: 10px;
   color: #666;
+  color: #fff;
 }
 .calculadora {
   width: 314px;
@@ -17,7 +19,7 @@ h2 {
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(247, 245, 245, 0.1);
 }
 #pantalla {
   width: 90%;
@@ -39,7 +41,7 @@ input[type="button"] {
   cursor: pointer;
 }
 input[type="button"]:hover {
-  background-color: #ddd;
+  background-color: #ab8b8b;
 }
 
 input[type="button"]:last-child {
